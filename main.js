@@ -16,9 +16,9 @@ function setup() {
 	push();
 	translate(width/2,height/2);
 	for(k=0; k<n; k++) {
-		var a = 30 * PI * k/n;
+		var a = 100 * PI * k/n;
     var b = 0.9*(cos(2 * PI * k/n) * sin(2 * PI * k/n));
-    var r = 0.1 * tan(a);
+    var r = 0.1 * a;
 		var x = cos(a) * r;
 		var y = sin(a) * r;
 
